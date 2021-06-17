@@ -28,7 +28,7 @@ export default function Layout ({ children }) {
       <style jsx>{`
         .app-body-container {
           margin: 3rem 0;
-          padding: 2rem;
+          padding: 0rem;
           width: 100%;
 
           display: flex;
@@ -38,6 +38,11 @@ export default function Layout ({ children }) {
         .app-body-content {
           max-width: 700px;
           width: 80%;
+        }
+        @media only screen and (min-width: 600px) {
+          .app-body-container {
+            padding: 2rem;
+          }
         }
       `}</style>
 

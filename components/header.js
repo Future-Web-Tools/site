@@ -1,6 +1,5 @@
 
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function Header () {
   return (
@@ -8,7 +7,7 @@ export default function Header () {
       <div className='app-header-content'>
         <Link href='/'>
           <a>
-            <Image
+            <img
               src='/images/future-web-tools-wordmark.svg'
               alt=''
               width={3000}
