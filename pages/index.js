@@ -27,8 +27,8 @@ export default function HomePage () {
       description: `
         The ultimate fullstack template for your dapp with Web3 integration, secure one-click sign-in, Personas integration and more.
       `,
-      link: 'https://future-web-nextjs.herokuapp.com/',
-      action: 'See demo'
+      link: 'https://github.com/Future-Web-Tools/nextjs-web3-template',
+      action: 'See the repo'
     },
     {
       title: 'Personas - plug-and-play social layer',
